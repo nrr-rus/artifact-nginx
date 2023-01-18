@@ -1,0 +1,6 @@
+# Default image
+container:
+  image: nginx:latest
+
+# Default replica number
+replicaCount: 3

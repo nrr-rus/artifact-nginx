@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+  labels:
+    env  : test
+spec:
+  selector:
+    project: nginx-helm
+  ports:
+    - name      : nginx-listener
+      protocol  : TCP
+      port      : 80
+      targetPort: 80
+  type: LoadBalancer

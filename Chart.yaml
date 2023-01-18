@@ -1,0 +1,9 @@
+apiVersion: v2
+name       : Helm-nginx
+description: My test Helm chart with nginx
+type       : application
+version    : 0.1.0 
+appVersion : "0.1.0"
+
+maintainers:
+  - name : RuslanN
