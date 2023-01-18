@@ -3,4 +3,4 @@ container:
   image: nginx:latest
 
 # Default replica number
-replicaCount: 3
+replicaCount: 2
