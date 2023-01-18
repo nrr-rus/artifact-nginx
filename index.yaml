@@ -2,8 +2,20 @@ apiVersion: v1
 entries:
   Helm-nginx:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2023-01-18T19:29:47.742949946Z"
+    description: My test Helm chart with nginx
+    digest: 4c1d91e5179cf4e253aeb45de7971e70caff09059d3657c68f113a63137f4bdb
+    maintainers:
+    - name: RuslanN
+    name: Helm-nginx
+    type: application
+    urls:
+    - Helm-nginx-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-01-18T17:32:37.649734971Z"
+    created: "2023-01-18T19:29:47.74207793Z"
     description: My test Helm chart with nginx
     digest: 016c1c4094b589080ad8e143491f5f7e2103bea8ceab961146ffa0cfb2f9d75b
     maintainers:
@@ -13,4 +25,4 @@ entries:
     urls:
     - Helm-nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-18T17:32:37.649032857Z"
+generated: "2023-01-18T19:29:47.741357316Z"
