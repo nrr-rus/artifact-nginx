@@ -1,6 +1,6 @@
 # Default image
 container:
-  image: nginx:latest
+  image: nrrrus/nginx-test:latest
 
 # Default replica number
 replicaCount: 2
